@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+<style>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             <!--
+/*--- Preheader declaration in style block in addition to inline for Outlook */
+.preheader { display:none !important; visibility:hidden; opacity:0; color:transparent; height:0; width:0; }
+/* 2 Equal-Width Columns V2 Layout Pattern CSS */
+    @media only screen and (max-width: 599px) {
+        td[class="pattern"] table { width: 100%; }
+        td[class="pattern"] .hero_image img {
+            width: 100%;
+            height: auto !important;
+        }
+    }
+    @media only screen and (max-width: 450px) {
+        td[class="pattern"] .spacer { display: none; }
+        td[class="pattern"] .col{
+            width: 100%;
+            display: block;
+        }
+        td[class="pattern"] .col:first-child { margin-bottom: 0px; }
+        td[class="pattern"] .hero_image img { width: 100%; }
+        td[class="column"] {
+            display: block;
+            width: 100%;
+            -moz-box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    }
+--></style>
+<style media="screen" type="text/css">                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             <!--
+a:link { color:#009a44; text-decoration: none; }
+a:visited { color:#FF671F; text-decoration: none; }
+a:hover { color:#ff671f; text-decoration: none; }
+a:active { color:#009a44; text-decoration: underline; }
+--></style>
+<!-- PRE-HEADER TEXT -->
+<p><span class="preheader" style="display: none !important; visibility: hidden; opacity: 0; color: transparent; height: 0; width: 0;">Wednesday, September 22, 2021</span></p>
